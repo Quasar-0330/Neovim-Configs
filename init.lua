@@ -20,15 +20,15 @@ vim.opt.sidescrolloff = 5
 vim.opt.backspace = 'indent,eol,start'
 vim.opt.syntax = 'on'
 
-vim.keymap.set('n', '<Up>', '<NOP>')
-vim.keymap.set('n', '<Down>', '<NOP>')
-vim.keymap.set('n', '<Right>', '<NOP>')
-vim.keymap.set('n', '<Left>', '<NOP>')
+vim.keymap.set('n', '<Up>', ':echo "DO NOT USE ARROW KEY..."<CR>')
+vim.keymap.set('n', '<Down>', ':echo "DO NOT USE ARROW KEY..."<CR>')
+vim.keymap.set('n', '<Right>', ':echo "DO NOT USE ARROW KEY..."<CR>')
+vim.keymap.set('n', '<Left>', ':echo "DO NOT USE ARROW KEY..."<CR>')
 
-vim.keymap.set('i', '<Up>', '<NOP>')
-vim.keymap.set('i', '<Down>', '<NOP>')
-vim.keymap.set('i', '<Right>', '<NOP>')
-vim.keymap.set('i', '<Left>', '<NOP>')
+vim.keymap.set('i', '<Up>', ':echo "DO NOT USE ARROW KEY..."<CR>')
+vim.keymap.set('i', '<Down>', ':echo "DO NOT USE ARROW KEY..."<CR>')
+vim.keymap.set('i', '<Right>', ':echo "DO NOT USE ARROW KEY..."<CR>')
+vim.keymap.set('i', '<Left>', ':echo "DO NOT USE ARROW KEY..."<CR>')
 
 vim.keymap.set('i', '<C-h>', '<Left>')
 vim.keymap.set('i', '<C-j>', '<Down>')
