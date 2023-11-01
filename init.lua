@@ -38,11 +38,11 @@ vim.keymap.set('i', '<C-o>', '<BS>')
 
 require('plugins')
 
-vim.cmd('colorscheme iceberg')
+vim.cmd('colorscheme onedark')
 vim.g.coc_global_extensions = {'coc-jedi'}
 vim.g.indentLine_char = '┊'
 vim.g.lightline = {
-    colorscheme = 'iceberg'
+    colorscheme = 'onedark'
 }
 if vim.fn.executable('fcitx5') then
     vim.cmd([[autocmd InsertLeave * :silent !fcitx5-remote -c]])
