@@ -19,6 +19,7 @@ vim.opt.scrolloff = 5
 vim.opt.sidescrolloff = 5
 vim.opt.backspace = 'indent,eol,start'
 vim.opt.syntax = 'on'
+vim.opt.mouse = ''
 
 vim.keymap.set('n', '<Up>', '<NOP>')
 vim.keymap.set('n', '<Down>', '<NOP>')
@@ -44,6 +45,7 @@ vim.g.indentLine_char = '┊'
 vim.g.lightline = {
     colorscheme = 'onedark'
 }
+
 if vim.fn.executable('fcitx5') then
     vim.cmd([[autocmd InsertLeave * :silent !fcitx5-remote -c]])
     vim.cmd([[autocmd CmdlineLeave * :silent !fcitx5-remote -c]])
