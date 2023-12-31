@@ -39,11 +39,15 @@ vim.keymap.set('i', '<C-o>', '<BS>')
 
 require('plugins')
 
-vim.cmd('colorscheme onedark')
 vim.g.coc_global_extensions = {'coc-jedi'}
 vim.g.indentLine_char = '┊'
-vim.g.lightline = {
-    colorscheme = 'onedark'
+
+require('onenord').setup()
+
+require('lualine').setup {
+    option = {
+        theme = 'onenord'
+    }
 }
 
 if vim.fn.executable('fcitx5') then
