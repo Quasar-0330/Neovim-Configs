@@ -43,7 +43,9 @@ vim.g.coc_global_extensions = {'coc-jedi'}
 vim.g.indentLine_char = '┊'
 
 require('onenord').setup()
-
+require('nvim-autopairs').setup()
+require('tidy').setup()
+require('ibl').setup()
 require('lualine').setup {
     option = {
         theme = 'onenord'
