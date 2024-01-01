@@ -4,7 +4,7 @@ require("packer").startup(function()
     use "nvim-lualine/lualine.nvim"
     use "rmehri01/onenord.nvim"
     use "neoclide/coc.nvim"
-    use "cohama/lexima.vim"
-    use "bronson/vim-trailing-whitespace"
-    use "Yggdroot/indentLine"
+    use "windwp/nvim-autopairs"
+    use "mcauley-penney/tidy.nvim"
+    use "lukas-reineke/indent-blankline.nvim"
 end)
