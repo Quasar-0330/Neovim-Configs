@@ -20,6 +20,7 @@ vim.opt.sidescrolloff = 5
 vim.opt.backspace = 'indent,eol,start'
 vim.opt.syntax = 'on'
 vim.opt.mouse = ''
+vim.opt.hlsearch = false
 
 vim.keymap.set('n', '<Up>', '<NOP>')
 vim.keymap.set('n', '<Down>', '<NOP>')
