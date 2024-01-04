@@ -22,22 +22,6 @@ vim.opt.syntax = 'on'
 vim.opt.mouse = ''
 vim.opt.hlsearch = false
 
-vim.keymap.set('n', '<Up>', '<NOP>')
-vim.keymap.set('n', '<Down>', '<NOP>')
-vim.keymap.set('n', '<Right>', '<NOP>')
-vim.keymap.set('n', '<Left>', '<NOP>')
-
-vim.keymap.set('i', '<Up>', '<NOP>')
-vim.keymap.set('i', '<Down>', '<NOP>')
-vim.keymap.set('i', '<Right>', '<NOP>')
-vim.keymap.set('i', '<Left>', '<NOP>')
-
-vim.keymap.set('i', '<C-h>', '<Left>')
-vim.keymap.set('i', '<C-j>', '<Down>')
-vim.keymap.set('i', '<C-k>', '<Up>')
-vim.keymap.set('i', '<C-l>', '<Right>')
-vim.keymap.set('i', '<C-o>', '<BS>')
-
 require('plugins')
 
 vim.g.coc_global_extensions = {'coc-jedi'}
