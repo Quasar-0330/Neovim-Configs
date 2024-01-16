@@ -24,7 +24,6 @@ vim.opt.hlsearch = false
 
 require('plugins')
 
-vim.g.coc_global_extensions = {'coc-jedi'}
 vim.g.indentLine_char = '┊'
 
 require('onenord').setup()
